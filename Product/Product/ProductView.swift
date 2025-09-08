@@ -16,6 +16,9 @@ public struct ProductView<Destination: View>: View {
     
     public var body: some View {
         VStack {
+            Image("real-madrid", bundle: Bundle(identifier: "com.dicoding.Common"))
+                .resizable()
+                .frame(width: 360, height: 120)
             NavigationLink(destination: action()) {
                 Text("Go to Detail")
             }

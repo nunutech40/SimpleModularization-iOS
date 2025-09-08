@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A05E71B92E6ED15C0043D07B /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05E71B82E6ED15C0043D07B /* Common.framework */; };
 		D456B4197070315B7F5B8CED /* Pods_Product.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFE4D4180166E780C69E3AB /* Pods_Product.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4EFE4D4180166E780C69E3AB /* Pods_Product.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Product.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D78F2EB37B35DFED5A41423 /* Pods-Product.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Product.release.xcconfig"; path = "Target Support Files/Pods-Product/Pods-Product.release.xcconfig"; sourceTree = "<group>"; };
+		A05E71B82E6ED15C0043D07B /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06B49512E69928D00326BB6 /* Product.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Product.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC43C15CF03FF909B7AB67DC /* Pods-Product.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Product.debug.xcconfig"; path = "Target Support Files/Pods-Product/Pods-Product.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,6 +46,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D456B4197070315B7F5B8CED /* Pods_Product.framework in Frameworks */,
+				A05E71B92E6ED15C0043D07B /* Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +56,7 @@
 		03CA0DA19B8943FE2AC2A12A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A05E71B82E6ED15C0043D07B /* Common.framework */,
 				4EFE4D4180166E780C69E3AB /* Pods_Product.framework */,
 			);
 			name = Frameworks;

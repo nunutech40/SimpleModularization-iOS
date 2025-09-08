@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		711252FAB02C30C3FC53AD1E /* Pods_Cart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE45478D28483CF0455BADE3 /* Pods_Cart.framework */; };
+		A05E71B52E6ED14D0043D07B /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05E71B42E6ED14D0043D07B /* Common.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9CB5D0B3FF9BBEA56C32DA70 /* Pods-Cart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cart.release.xcconfig"; path = "Target Support Files/Pods-Cart/Pods-Cart.release.xcconfig"; sourceTree = "<group>"; };
+		A05E71B42E6ED14D0043D07B /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06B493A2E69927700326BB6 /* Cart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0FA9C02D66EB0201A6368CF /* Pods-Cart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cart.debug.xcconfig"; path = "Target Support Files/Pods-Cart/Pods-Cart.debug.xcconfig"; sourceTree = "<group>"; };
 		FE45478D28483CF0455BADE3 /* Pods_Cart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				711252FAB02C30C3FC53AD1E /* Pods_Cart.framework in Frameworks */,
+				A05E71B52E6ED14D0043D07B /* Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +56,7 @@
 		7B98BD86BD9B5555FABD9AEE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A05E71B42E6ED14D0043D07B /* Common.framework */,
 				FE45478D28483CF0455BADE3 /* Pods_Cart.framework */,
 			);
 			name = Frameworks;
