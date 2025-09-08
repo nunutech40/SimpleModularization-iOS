@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		2A024058C04A35752B4EC291 /* Pods_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1DCD2A552727B3B9DE268D /* Pods_App.framework */; };
+		A05E71C62E6ED96C0043D07B /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A05E71C12E6ED9510043D07B /* Quicksand-Bold.ttf */; };
+		A05E71C72E6ED9710043D07B /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A05E71C22E6ED9510043D07B /* Quicksand-Light.ttf */; };
+		A05E71C82E6ED9750043D07B /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A05E71C32E6ED9510043D07B /* Quicksand-Medium.ttf */; };
+		A05E71C92E6ED97B0043D07B /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A05E71C42E6ED9510043D07B /* Quicksand-Regular.ttf */; };
+		A05E71CA2E6ED9800043D07B /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A05E71C52E6ED9510043D07B /* Quicksand-SemiBold.ttf */; };
 		A06B48B72E69468C00326BB6 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A06B48B62E69468C00326BB6 /* Common.framework */; };
 		A06B48B82E69468C00326BB6 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A06B48B62E69468C00326BB6 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A06B49762E6992BA00326BB6 /* Cart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A06B49752E6992BA00326BB6 /* Cart.framework */; };
@@ -37,14 +42,32 @@
 		24666DFB284BDDC3EB8AFDEF /* Pods-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.release.xcconfig"; path = "Target Support Files/Pods-App/Pods-App.release.xcconfig"; sourceTree = "<group>"; };
 		2B1DCD2A552727B3B9DE268D /* Pods_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A04F07842E6942890050A6A0 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05E71C12E6ED9510043D07B /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		A05E71C22E6ED9510043D07B /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		A05E71C32E6ED9510043D07B /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		A05E71C42E6ED9510043D07B /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		A05E71C52E6ED9510043D07B /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
 		A06B48B62E69468C00326BB6 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06B49752E6992BA00326BB6 /* Cart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06B49782E6992BF00326BB6 /* Product.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Product.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A05E71CC2E6ED9A40043D07B /* Exceptions for "App" folder in "App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A04F07832E6942890050A6A0 /* App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A04F07862E6942890050A6A0 /* App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A05E71CC2E6ED9A40043D07B /* Exceptions for "App" folder in "App" target */,
+			);
 			path = App;
 			sourceTree = "<group>";
 		};
@@ -79,6 +102,7 @@
 		A04F077B2E6942890050A6A0 = {
 			isa = PBXGroup;
 			children = (
+				A05E71C02E6ED8F50043D07B /* Fonts */,
 				A04F07862E6942890050A6A0 /* App */,
 				A04F07852E6942890050A6A0 /* Products */,
 				BD88C2CCE2EEF273579568F7 /* Pods */,
@@ -92,6 +116,18 @@
 				A04F07842E6942890050A6A0 /* App.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A05E71C02E6ED8F50043D07B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A05E71C12E6ED9510043D07B /* Quicksand-Bold.ttf */,
+				A05E71C22E6ED9510043D07B /* Quicksand-Light.ttf */,
+				A05E71C32E6ED9510043D07B /* Quicksand-Medium.ttf */,
+				A05E71C42E6ED9510043D07B /* Quicksand-Regular.ttf */,
+				A05E71C52E6ED9510043D07B /* Quicksand-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		BD88C2CCE2EEF273579568F7 /* Pods */ = {
@@ -167,6 +203,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A05E71C92E6ED97B0043D07B /* Quicksand-Regular.ttf in Resources */,
+				A05E71C62E6ED96C0043D07B /* Quicksand-Bold.ttf in Resources */,
+				A05E71C72E6ED9710043D07B /* Quicksand-Light.ttf in Resources */,
+				A05E71CA2E6ED9800043D07B /* Quicksand-SemiBold.ttf in Resources */,
+				A05E71C82E6ED9750043D07B /* Quicksand-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +380,7 @@
 				DEVELOPMENT_TEAM = KCZ9U3V7VQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -369,6 +411,7 @@
 				DEVELOPMENT_TEAM = KCZ9U3V7VQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
