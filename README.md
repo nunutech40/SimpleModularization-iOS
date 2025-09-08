@@ -1,3 +1,3 @@
 ## Komunikasi antar modul yang terjadi di ContentView di Modul App
 
-<img width="734" height="367" alt="Screenshot 2025-09-08 at 15 31 37" src="https://github.com/user-attachments/assets/b25852ad-e8fc-479c-9176-4b06abb5035d" />
+<img width="708" height="461" alt="Screenshot 2025-09-08 at 15 51 28" src="https://github.com/user-attachments/assets/2da0b004-e550-42ee-bff4-b2cee3572e9e" />
