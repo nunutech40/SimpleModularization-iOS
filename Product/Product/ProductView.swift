@@ -21,6 +21,10 @@ public struct ProductView<Destination: View>: View {
                 .frame(width: 360, height: 120)
             Text("Hi, i'm using Quicksand as Font")
                 .font(.custom("Quicksand-SemiBold", size: 20))
+            Text("Hi, i'm using framework's Bangers Reguler as Font", bundle: Bundle(identifier: "com.dicoding.Common"))
+                  .font(.custom("Bangers-Regular", size: 20))
+            Text("Hi, i'm using framework's PlusJakartaSans-Italic-VariableFont_wght as Font", bundle: Bundle(identifier: "com.dicoding.Common"))
+                  .font(.custom("PlusJakartaSans-BoldItalic", size: 20))
             NavigationLink(destination: action()) {
                 Text("Go to Detail")
             }
