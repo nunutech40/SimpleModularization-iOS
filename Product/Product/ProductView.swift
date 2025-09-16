@@ -38,7 +38,7 @@ public struct ProductView<
             Text("Hi, i'm using framework's PlusJakartaSans-Italic-VariableFont_wght as Font", bundle: Bundle(identifier: "com.dicoding.Common"))
                   .font(.custom("PlusJakartaSans-BoldItalic", size: 20))
             
-            Text("Hi, I'm changing my name from Dicoding to \(getProductPresenter.execute(request: "Dicoding"))")
+            Text("Hi, I'm changing my name from Dicoding to \(getProductOtherPresenter.execute(request: "Dicoding"))")
             Spacer()
             
             NavigationLink(destination: action()) {
@@ -49,7 +49,12 @@ public struct ProductView<
 }
 
 extension ProductView {
+    
     var getProductPresenter: GetProductPresenter<String, String, GetProductUseCase> {
         GetProductPresenter(useCase: GetProductUseCase())
+    }
+    
+    var getProductOtherPresenter: GetProductPresenter<String, String, GetOtherProductUseCase> {
+        GetProductPresenter(useCase: GetOtherProductUseCase())
     }
 }
